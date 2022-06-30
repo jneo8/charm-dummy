@@ -1,6 +1,7 @@
 # pin Jinja2 to the last versions supporting python 3.4 for trusty
 Jinja2<=2.10.1
 psutil
+netifaces
 
 git+https://github.com/openstack/charms.openstack.git@stable/yoga#egg=charms.openstack
 git+https://github.com/juju/charm-helpers@stable/yoga#egg=charmhelpers

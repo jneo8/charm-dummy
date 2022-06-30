@@ -10,4 +10,3 @@ git+https://github.com/openstack-charmers/zaza-openstack-tests.git@stable/ussuri
 
 # Need tox to be available from tox... inception yes, but its a workaround for now
 tox
-
