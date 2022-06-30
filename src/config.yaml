@@ -3,9 +3,10 @@ options:
     type: int
     default: 80
     description: |
-      NGINX listen port
+      Apache listen port
   host:
     type: string
-    default: "127.0.0.1"
-    description: listen address
+    default: "*"
+    description: |
+      Adress on which Apache will listen. To listen on any interface, set "*".
 

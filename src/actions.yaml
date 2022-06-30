@@ -1,0 +1,6 @@
+stop:
+  description: Stop apache service
+start:
+  description: Start apache service
+restart:
+  description: Restart apache service
