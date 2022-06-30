@@ -1,0 +1,11 @@
+name: dummy
+summary: Dummy charm
+maintainer: James Lin <james.lin@canonical.com>
+description: |
+  A dummy charm for functional test workshop.
+tags:
+- functional-test
+series:
+- bionic
+- focal
+subordinate: false

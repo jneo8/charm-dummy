@@ -1,0 +1,4 @@
+charm_name: dummy
+
+gate_bundles:
+  - focal

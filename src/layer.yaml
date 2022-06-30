@@ -1,0 +1,9 @@
+includes: ['layer:basic']
+options:
+  basic:
+    use_venv: True
+    include_system_packages: False
+repo: https://github.com/jneo8/charm-dummy
+config:
+  deletes:
+    - verbose
