@@ -6,6 +6,5 @@ description: |
 tags:
 - functional-test
 series:
-- bionic
 - focal
 subordinate: false
