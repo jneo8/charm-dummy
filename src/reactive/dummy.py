@@ -37,6 +37,7 @@ def reconfigure_vhost():
     }
     render("vhost.j2", "/etc/apache2/sites-available/000-default.conf",
            context=context)
+    render("ports.j2", "/etc/apache2/ports.conf", context=context)
 
     # close previously opened ports
     for port_spec in opened_ports():
