@@ -1,0 +1,10 @@
+series: focal
+
+
+applications:
+  dummy:
+    charm: ../../../dummy.charm
+    num_units: 1
+
+tests:
+  - zaza.dummy.charm_tests.dummy.tests.DummyTest
