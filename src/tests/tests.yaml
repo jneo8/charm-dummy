@@ -2,3 +2,6 @@ charm_name: dummy
 
 gate_bundles:
   - focal
+
+tests:
+  - zaza.dummy.charm_tests.dummy.tests.DummyTest
